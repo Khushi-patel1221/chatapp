@@ -10,18 +10,16 @@ Front-end: HTML, CSS, JavaScript
 Back-end: Node.js, Express.js
 WebSocket: Socket.IO for real-time communication
 
-File Structure
-java
-Copy code
-chatapp/
+
+chatapp/                                      
+│                                           
+├── public/                                                       
+│   ├── css/                              
+│   │   └── styles.css                                   
+│   ├── js/                                  
+│   │   └── main.js                                     
+│   └── index.html                                
 │
-├── public/
-│   ├── css/
-│   │   └── styles.css
-│   ├── js/
-│   │   └── main.js
-│   └── index.html
-│
-├── server.js
-├── package.json
-└── README.md
+├── server.js                                     
+├── package.json                                         
+└── README.md                                                  
